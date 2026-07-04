@@ -52,5 +52,7 @@ int main(){
    std::cout<<"signed long long:       "<<signed_long_long<<"     size: "<<sizeof(signed_long_long)<<std::endl;
    std::cout<<"signed long long int:   "<<signed_long_long_int<<"    size: "<<sizeof(signed_long_long_int)<<std::endl;
    std::cout<<"unsigned long long int: "<<unsigned_long_long_int<<"    size: "<<sizeof(unsigned_long_long_int)<<std::endl;  
+
+   return 0;
 }
      
