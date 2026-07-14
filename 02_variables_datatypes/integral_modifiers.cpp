@@ -1,6 +1,8 @@
 #include <iostream>
+
 int main(){
-    std::cout<<"Size of int: "<<sizeof(int)<<std::endl;
+
+    std::cout<<"Size of int: "<<sizeof(int)<<"\n";
     //unsigned range = [0 ~ 2*n-1]
     //signed range = [-2*(n-1) ~ (2*(n-1)-1)]       where n is the number of bits that datatype uses
 
@@ -30,29 +32,30 @@ int main(){
    signed long long int signed_long_long_int{1234};
    unsigned long long int unsigned_long_long_int{1234};
    
-   std::cout<<"short var:              "<<short_var<<"  size: "<<sizeof(short_var)<<std::endl;
-   std::cout<<"short int:              "<<short_int<<"     size: "<<sizeof(short_int)<<std::endl;
-   std::cout<<"signed short:           "<<signed_short<<"     size: "<<sizeof(signed_short)<<std::endl;
-   std::cout<<"signed short int:       "<<signed_short_int<<"    size: "<<sizeof(signed_short_int)<<std::endl;
-   std::cout<<"unsigned short int:     "<<unsigned_short_int<<"     size: "<<sizeof(unsigned_short_int)<<std::endl;
+   std::cout << "short var:              " << short_var              << "  size: " << sizeof(short_var)              << "\n";
+   std::cout << "short int:              " << short_int              << "  size: " << sizeof(short_int)              << "\n";
+   std::cout << "signed short:           " << signed_short           << "  size: " << sizeof(signed_short)           << "\n";
+   std::cout << "signed short int:       " << signed_short_int       << "  size: " << sizeof(signed_short_int)       << "\n";
+   std::cout << "unsigned short int:     " << unsigned_short_int     << "  size: " << sizeof(unsigned_short_int)     << "\n";
 
-   std::cout<<"int var:                "<<int_var<<"      size: "<<sizeof(int_var)<<std::endl;
-   std::cout<<"signed var:             "<<signed_var<<"      size: "<<sizeof(signed_var)<<std::endl;
-   std::cout<<"signed int:             "<<signed_int<<"      size: "<<sizeof(signed_int)<<std::endl;
-   std::cout<<"unsigned int:           "<<unsigned_int<<"      size: "<<sizeof(unsigned_int)<<std::endl;
+   std::cout << "int var:                " << int_var                << "  size: " << sizeof(int_var)                << "\n";
+   std::cout << "signed var:             " << signed_var             << "  size: " << sizeof(signed_var)             << "\n";
+   std::cout << "signed int:             " << signed_int             << "  size: " << sizeof(signed_int)             << "\n";
+   std::cout << "unsigned int:           " << unsigned_int           << "  size: " << sizeof(unsigned_int)           << "\n";
+     
+   std::cout << "long var:               " << long_var               << "  size: " << sizeof(long_var)               << "\n";
+   std::cout << "long int:               " << long_int               << "  size: " << sizeof(long_int)               << "\n";
+   std::cout << "signed long:            " << signed_long            << "  size: " << sizeof(signed_long)            << "\n";
+   std::cout << "signed long int:        " << signed_long_int        << "  size: " << sizeof(signed_long_int)        << "\n";
+   std::cout << "unsigned long int:      " << unsigned_long_int      << "  size: " << sizeof(unsigned_long_long_int) << "\n";
    
-   std::cout<<"long var:               "<<long_var<<"      size: "<<sizeof(long_var)<<std::endl;
-   std::cout<<"long int:               "<<long_int<<"      size: "<<sizeof(long_int)<<std::endl;
-   std::cout<<"signed long:            "<<signed_long<<"      size: "<<sizeof(signed_long)<<std::endl;
-   std::cout<<"signed long int:        "<<signed_long_int<<"      size: "<<sizeof(signed_long_int)<<std::endl;
-   std::cout<<"unsigned long int:      "<<unsigned_long_int<<"      size: "<<sizeof(unsigned_long_long_int)<<std::endl;
-   
-   std::cout<<"long long:              "<<long_long<<"     size: "<<sizeof(long_long)<<std::endl;
-   std::cout<<"long long int:          "<<long_long_int<<"     size: "<<sizeof(long_long_int)<<std::endl;
-   std::cout<<"signed long long:       "<<signed_long_long<<"     size: "<<sizeof(signed_long_long)<<std::endl;
-   std::cout<<"signed long long int:   "<<signed_long_long_int<<"    size: "<<sizeof(signed_long_long_int)<<std::endl;
-   std::cout<<"unsigned long long int: "<<unsigned_long_long_int<<"    size: "<<sizeof(unsigned_long_long_int)<<std::endl;  
+   std::cout << "long long:              " << long_long              << "  size: " << sizeof(long_long)              << "\n";
+   std::cout << "long long int:          " << long_long_int          << "  size: " << sizeof(long_long_int)          << "\n";
+   std::cout << "signed long long:       " << signed_long_long       << "  size: " << sizeof(signed_long_long)       << "\n";
+   std::cout << "signed long long int:   " << signed_long_long_int   << "  size: " << sizeof(signed_long_long_int)   << "\n";
+   std::cout << "unsigned long long int: " << unsigned_long_long_int << "  size: " << sizeof(unsigned_long_long_int) << "\n";  
 
    return 0;
+
 }
      
